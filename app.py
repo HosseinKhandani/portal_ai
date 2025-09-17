@@ -211,6 +211,32 @@ h1, h2, h3, h4, h5, h6 {
 .stMarkdown {
     font-family: 'B homa', sans-serif !important;
 }
+
+/* استایل برای لینک مستقیم */
+.app-link-button {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    font-family: 'B homa', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.app-link-button:hover {
+    background: linear-gradient(135deg, #2980b9, #3498db);
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+    text-decoration: none;
+    color: white;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -260,7 +286,6 @@ apps = [
         "description": "بررسی صحت اخبار و اطلاعات با استفاده از منابع معتبر و هوش مصنوعی",
         "url": "https://01992d7f-1978-2284-c6b6-83e751bd53c5.share.connect.posit.cloud"
     },
-
     {
         "icon": "🛡️",
         "title": "اپ تحلیل اقتصادی بازارها",
@@ -273,9 +298,9 @@ apps = [
         "description": "پیش‌بینی قیمت و روند بازار املاک و خودرو با تحلیل داده‌های بازار",
         "url": "https://01948d8d-6555-1d15-da1b-0c4f51fa267d.share.connect.posit.cloud/"
     },
-        {
+    {
         "icon": "⚖️",
-        "title": "تست  - دستیار هوشمند حقوقی",
+        "title": "تست - دستیار هوشمند حقوقی",
         "description": "مشاوره حقوقی هوشمند و جستجو در قوانین و مقررات",
         "url": "https://0199284c-8df8-a8e8-5b25-51c119b80843.share.connect.posit.cloud/"
     }
@@ -291,9 +316,6 @@ for i in range(0, len(apps), 3):
         if i + j < len(apps):
             app = apps[i + j]
             with cols[j]:
-                # ایجاد کلید منحصر به فرد برای هر دکمه
-                button_key = f"app_button_{i}_{j}"
-                
                 st.markdown(f"""
                 <div class="app-card">
                     <div class="app-icon">{app['icon']}</div>
@@ -302,18 +324,17 @@ for i in range(0, len(apps), 3):
                 </div>
                 """, unsafe_allow_html=True)
                 
-                # دکمه با استایل سفارشی
-                if st.button(f"🚀 ورود به سامانه", key=button_key, use_container_width=True):
-                    if app['url'] != "#":
-                        # نمایش پیام موفقیت
-                        st.success(f"✅ در حال انتقال به {app['title']}...")
-                        # باز کردن لینک در تب جدید با JavaScript
-                        st.components.v1.html(f"""
-                        <script>
-                        window.open('{app["url"]}', '_blank');
-                        </script>
-                        """, height=0)
-                    else:
+                # روش 1: استفاده از لینک HTML مستقیم (بهترین روش)
+                if app['url'] != "#":
+                    st.markdown(f"""
+                    <a href="{app['url']}" target="_blank" class="app-link-button">
+                        🚀 ورود به سامانه
+                    </a>
+                    """, unsafe_allow_html=True)
+                else:
+                    # روش 2: استفاده از دکمه Streamlit با JavaScript برای اپ‌های غیرفعال
+                    button_key = f"app_button_{i}_{j}"
+                    if st.button("⏳ به زودی در دسترس", key=button_key, use_container_width=True, disabled=True):
                         st.info("⏳ این اپلیکیشن به زودی در دسترس خواهد بود!")
 
 # بخش ویژگی‌ها
