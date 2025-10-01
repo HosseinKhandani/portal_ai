@@ -284,7 +284,7 @@ apps = [
         "icon": "🔍",
         "title": "اپلیکیشن Fact Checking اخبار",
         "description": "بررسی صحت اخبار و اطلاعات با استفاده از منابع معتبر و هوش مصنوعی",
-        "url": "https://01992d7f-1978-2284-c6b6-83e751bd53c5.share.connect.posit.cloud"
+        "url": "https://0199a017-6442-af1e-44f1-90b98a890fd4.share.connect.posit.cloud/"
     },
       {
         "icon": "🛡️",
@@ -368,6 +368,7 @@ st.markdown("""
     <p style="margin-top: 1rem; opacity: 0.8;">© ۱۴۰۴ - تمامی حقوق محفوظ است</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
