@@ -107,7 +107,7 @@ st.markdown("""
 }
 
 .stat-card:nth-child(2) {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    background: linear-gradient(135deg, #4facfe 0%, #16cad3 100%);
     box-shadow: 0 8px 25px rgba(79, 172, 254, 0.3);
 }
 
@@ -368,6 +368,7 @@ st.markdown("""
     <p style="margin-top: 1rem; opacity: 0.8;">© ۱۴۰۴ - تمامی حقوق محفوظ است</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
