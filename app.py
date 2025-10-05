@@ -21,7 +21,7 @@ st.markdown("""
 }
 
 .main-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #e5d0c7 0%, #8dc918 100%);
     padding: 3rem 2rem;
     border-radius: 20px;
     text-align: center;
@@ -368,6 +368,7 @@ st.markdown("""
     <p style="margin-top: 1rem; opacity: 0.8;">© ۱۴۰۴ - تمامی حقوق محفوظ است</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
