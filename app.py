@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* استایل برای لینک مستقیم */
 .app-link-button {
-    background: linear-gradient(135deg, #3498db, #2980b9);
+    background: linear-gradient(135deg, #e5dec7, #4bc3b8);
     color: white;
     border: none;
     border-radius: 50px;
@@ -368,6 +368,7 @@ st.markdown("""
     <p style="margin-top: 1rem; opacity: 0.8;">© ۱۴۰۴ - تمامی حقوق محفوظ است</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
