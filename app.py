@@ -302,7 +302,7 @@ apps = [
         "icon": "⚖️",
         "title": "تست - دستیار بررسی و تطابق سنجی رزومه های فها",
         "description": "مشاوره حقوقی هوشمند و جستجو در قوانین و مقررات",
-        "url": "https://01996c94-f5a4-c3e6-123c-22ce3d2a6180.share.connect.posit.cloud/"
+        "url": "https://0199ba83-50df-1a06-c7cd-13893ecd791b.share.connect.posit.cloud/"
     }
 ]
 
@@ -368,6 +368,7 @@ st.markdown("""
     <p style="margin-top: 1rem; opacity: 0.8;">© ۱۴۰۴ - تمامی حقوق محفوظ است</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
