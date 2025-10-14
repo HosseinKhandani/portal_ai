@@ -252,11 +252,11 @@ st.markdown("""
 st.markdown("""
 <div class="stats-container">
     <div class="stat-card">
-        <span class="stat-number">6</span>
+        <span class="stat-number">9</span>
         <span class="stat-label">اپلیکیشن فعال</span>
     </div>
     <div class="stat-card">
-        <span class="stat-number">4</span>
+        <span class="stat-number">6</span>
         <span class="stat-label">دسته‌بندی اپلیکیشن‌ها</span>
     </div>
     <div class="stat-card">
@@ -368,6 +368,7 @@ st.markdown("""
     <p style="margin-top: 1rem; opacity: 0.8;">© ۱۴۰۴ - تمامی حقوق محفوظ است</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
