@@ -278,7 +278,7 @@ apps = [
         "icon": "📊",
         "title": "اپلیکیشن تحلیل صورت‌های مالی",
         "description": "تجزیه و تحلیل دقیق صورت‌های مالی و ارائه گزارش‌های تخصصی",
-        "url": "https://0199e141-da77-6ec2-9b48-7de1b896bd79.share.connect.posit.cloud/"
+        "url": "https://01994c5f-cc2c-e454-6403-ee38942cf7a0.share.connect.posit.cloud/"
     },
     {
         "icon": "🔍",
@@ -368,6 +368,7 @@ st.markdown("""
     <p style="margin-top: 1rem; opacity: 0.8;">© ۱۴۰۴ - تمامی حقوق محفوظ است</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
