@@ -272,7 +272,8 @@ apps = [
         "icon": "🛰️",
         "title": "اپلیکیشن پردازش تصاویر ماهواره‌ای",
         "description": "پردازش و تحلیل تصاویر ماهواره‌ای با الگوریتم‌های پیشرفته هوش مصنوعی",
-        "url": "https://01975364-aa50-a99d-e2e6-741fe3760f53.share.connect.posit.cloud/"
+        "url": "https://019ef348-f229-effa-4012-40d943da9497.share.connect.posit.cloud/"
+        #"url": "https://01975364-aa50-a99d-e2e6-741fe3760f53.share.connect.posit.cloud/"
     },
     {
         "icon": "📊",
