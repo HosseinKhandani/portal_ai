@@ -288,6 +288,12 @@ apps = [
         "description": "در این اپ کاربر روی فایل بارگذاری دلخواه خود میتواند پرسجو نمایید",
         "url": "https://01a015a6-d468-a9d3-fbb9-747ca9afb8ad.share.connect.posit.cloud/"
     },
+    {
+        "icon": "🛰️",
+        "title": "حکمرانی و پایش منابع آب کشور",
+        "description": "این ابزار پلتفرمی است برای پایش کیفیت و کودورت منابع آبی کشور",
+        "url": "https://019ef348-f229-effa-4012-40d943da9497.share.connect.posit.cloud/"
+    },
     
     {
         "icon": "🔍",
@@ -307,12 +313,12 @@ apps = [
     #    "description": "پیش‌بینی قیمت و روند بازار املاک و خودرو با تحلیل داده‌های بازار",
     #    "url": "https://01948d8d-6555-1d15-da1b-0c4f51fa267d.share.connect.posit.cloud/"
     #},
-    {
-        "icon": "⚖️",
-        "title": "تست - دستیار بررسی و تطابق سنجی رزومه های فها",
-        "description": "مشاوره حقوقی هوشمند و جستجو در قوانین و مقررات",
-        "url": "https://0199ba83-50df-1a06-c7cd-13893ecd791b.share.connect.posit.cloud/"
-    }
+ #   {
+ #       "icon": "⚖️",
+ #       "title": "تست - دستیار بررسی و تطابق سنجی رزومه های فها",
+ #       "description": "مشاوره حقوقی هوشمند و جستجو در قوانین و مقررات",
+ #       "url": "https://0199ba83-50df-1a06-c7cd-13893ecd791b.share.connect.posit.cloud/"
+ #   }
 ]
 
 # نمایش اپلیکیشن‌ها در شبکه
