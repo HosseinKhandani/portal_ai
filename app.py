@@ -270,8 +270,8 @@ st.markdown("""
 apps = [
     {
         "icon": "🛰️",
-        "title": "اپلیکیشن پردازش تصاویر ماهواره‌ای",
-        "description": "پردازش و تحلیل تصاویر ماهواره‌ای با الگوریتم‌های پیشرفته هوش مصنوعی",
+        "title": "حکمرانی و پایش منابع آب کشور",
+        "description": "این ابزار پلتفرمی است برای پایش کیفیت و کودورت منابع آبی کشور",
         "url": "https://019ef348-f229-effa-4012-40d943da9497.share.connect.posit.cloud/"
         #"url": "https://01975364-aa50-a99d-e2e6-741fe3760f53.share.connect.posit.cloud/"
     },
@@ -286,13 +286,13 @@ apps = [
         "icon": "🧠",
         "title": "دستیار هوشمند قوانین و مقررات براساس فایل ورودی کاربر (RAG)",
         "description": "در این اپ کاربر روی فایل بارگذاری دلخواه خود میتواند پرسجو نمایید",
-        "url": "https://01a015a6-d468-a9d3-fbb9-747ca9afb8ad.share.connect.posit.cloud/"
+        "url": ""https://01975364-aa50-a99d-e2e6-741fe3760f53.share.connect.posit.cloud/""
     },
     {
         "icon": "🛰️",
-        "title": "حکمرانی و پایش منابع آب کشور",
-        "description": "این ابزار پلتفرمی است برای پایش کیفیت و کودورت منابع آبی کشور",
-        "url": "https://019ef348-f229-effa-4012-40d943da9497.share.connect.posit.cloud/"
+        "title": "اپلیکیشن پردازش تصاویر ماهواره‌ای",
+        "description": "پردازش و تحلیل تصاویر ماهواره‌ای با الگوریتم‌های پیشرفته هوش مصنوعی",
+        "url": "https://01975364-aa50-a99d-e2e6-741fe3760f53.share.connect.posit.cloud/"
     },
     
     {
